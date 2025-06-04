@@ -1,5 +1,7 @@
 # ESP32 Line-Following Robot with Dijkstra Pathfinding
 
+[View this project on GitHub](https://github.com/JochemK1999/Robotics)
+
 This repository contains two main components:
 
 1. **ESP32 MicroPython Code**: Hosts a server on the ESP32 that:
