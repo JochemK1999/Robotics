@@ -394,7 +394,6 @@ class RobotController:
         self.route = route
         self.step = 0
         self.set_next_goal()
-        self.state = STATE_FOLLOW
 
     def set_next_goal(self):
         """ Sets the next goal position for the robot based on the current route."""
@@ -425,7 +424,7 @@ class RobotController:
         else:
             goal_phi = 0 #Already at goal, throw error
             print("Error: Robot is at goal position, but this should have been caught earlier in this function.")
-                
+                        
         # Check if the robot needs to rotate
         if abs(goal_phi - self.puckRobot.phi) > 0.05:
             print("Robot needs to turn")
