@@ -2,6 +2,10 @@
 
 [View this project on GitHub](https://github.com/JochemK1999/Robotics)
 
+By:
+- Jochem Kerssies: 445566
+- Szumilas Jan Alexandru: 472167
+
 This repository contains two main components:
 
 1. **ESP32 MicroPython Code**: Hosts a server on the ESP32 that:
